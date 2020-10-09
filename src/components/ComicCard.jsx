@@ -9,23 +9,21 @@ import { Cards } from "./Cards";
 
 export const ComicCard = () => {
   const { loading, data } = useFetch(`https://xkcd.com/614/info.0.json`);
-  const { img, title } = !!data && data;
+  // const { img, title } = !!data && data;
  
   return (
-    <Container >
-      <Row className="justify-content-md-center">       
-        <Col sm={12} md={8} lg={6} className="justify-content-md-center">
+   
+      <Row className="justify-content-center info">       
+        <Col xs={12} sm={12} md={8} lg={8}>
           {loading ? (
             <div className="alert alert-info text-center">loading....</div>
           ) : (
             <div className="card animate__animated animate__bounce justify-content-center">            
-              <Cards {...data}/>
-               {/* <h1>{title}</h1>
-              <img src={img} alt={title} /> */}
+              <Cards  {...data}/>            
             </div>
           )}
         </Col>        
       </Row>
-    </Container>
+   
   );
 };

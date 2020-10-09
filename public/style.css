@@ -1,25 +1,21 @@
-html,
-body {
-  height: 100%;
-  position: relative;
-}
-html,
+/* html,
 body,
 div#root {
+  height: 100%;
   width: 100%;
   min-height: 100%;
   box-sizing: border-box;
-}
+} */
 
 body {
+  box-sizing: border-box;
+  height: 100%;
   margin: 0;
   padding: 0;
+  position: absolute;
+  width: 100%;
 }
-
 div#root {
-  display: flex;
+  position: relative;
   height: 100%;
-
-  align-items: center;
-  background: linear-gradient(180deg, #289ce1, #683d74);
 }

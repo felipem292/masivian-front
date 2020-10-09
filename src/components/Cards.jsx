@@ -4,22 +4,12 @@ import { Stars } from "./Stars";
 import "./styles/Cards.css";
 export const Cards = ({title, img}) => {
     return (
-      //   <Card style={{  }}>
-      //   <Card.Img className="comic-img" variant="top" src={img} />
-      //   <Card.Body className="mx-auto">
-      //     <Card.Title>{title}</Card.Title>
-      //     <Card.Text>
-      //       <Stars />
-      //     </Card.Text>
-      //   </Card.Body>
-        
-      // </Card>
+   
       <div className="card">
         <h1>{title}</h1>
-        <img className="comic-img" src={img} alt={title} />
-        <div className="card-stars">
+        <img className="comic-img" src={img} alt={title} width="60%" />        
         <Stars />
-        </div>
+        <h5>Calificanos</h5>      
        
       </div>
     )

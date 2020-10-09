@@ -27,7 +27,7 @@ export const useFetch = (url) => {
                             error: null,
                             data
                         })
-                    },1000)
+                    },5000)
                    
                 }
 

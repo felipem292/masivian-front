@@ -1,7 +1,6 @@
 import ReactStars from "react-rating-stars-component";
 import React from "react";
 
-import "./styles/ReactStars.css";
 const ratingChanged = (newRating) => {
   console.log(newRating);
 };
