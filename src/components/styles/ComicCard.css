@@ -1,0 +1,15 @@
+.card {
+  align-self: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.card-body div {
+  align-self: center;
+}
+.card-title {
+  font-size: 2rem;
+}
+.react-stars {
+  outline: white;
+}

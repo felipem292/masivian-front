@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+html,
+body,
+div#root {
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div#root {
+  display: flex;
+  height: 100%;
+
+  align-items: center;
+  background: linear-gradient(180deg, #289ce1, #683d74);
+}

@@ -1,0 +1,13 @@
+.comic-img {
+  width: 100%;
+  align-self: center;
+}
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+.react-stars {
+  align-self: center;
+  align-content: center;
+}
