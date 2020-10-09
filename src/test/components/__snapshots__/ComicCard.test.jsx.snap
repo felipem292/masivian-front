@@ -1,52 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`unit test comic card should render correctly 1`] = `
-<Container
-  fluid={false}
+<Row
+  className="justify-content-center info"
+  noGutters={false}
 >
-  <Row
-    className="justify-content-md-center"
-    noGutters={false}
+  <Col
+    lg={8}
+    md={8}
+    sm={12}
+    xs={12}
   >
-    <Col
-      className="justify-content-md-center"
-      lg={6}
-      md={8}
-      sm={12}
+    <div
+      className="alert alert-info text-center"
     >
-      <div
-        className="alert alert-info text-center"
-      >
-        loading....
-      </div>
-    </Col>
-  </Row>
-</Container>
+      loading....
+    </div>
+  </Col>
+</Row>
 `;
 
 exports[`unit test comic card should show card item 1`] = `
-<Container
-  fluid={false}
+<Row
+  className="justify-content-center info"
+  noGutters={false}
 >
-  <Row
-    className="justify-content-md-center"
-    noGutters={false}
+  <Col
+    lg={8}
+    md={8}
+    sm={12}
+    xs={12}
   >
-    <Col
-      className="justify-content-md-center"
-      lg={6}
-      md={8}
-      sm={12}
+    <div
+      className="card animate__animated animate__bounce justify-content-center"
     >
-      <div
-        className="card animate__animated animate__bounce justify-content-center"
-      >
-        <Cards
-          img="https://imgs.xkcd.com/comics/woodpecker.png"
-          title="Woodpecker"
-        />
-      </div>
-    </Col>
-  </Row>
-</Container>
+      <Cards
+        img="https://imgs.xkcd.com/comics/woodpecker.png"
+        title="Woodpecker"
+      />
+    </div>
+  </Col>
+</Row>
 `;

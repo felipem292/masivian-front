@@ -21,13 +21,13 @@ export const useFetch = (url) => {
 
                 if (isMounted.current) {
 
-                    setTimeout(()=>{
-                        setState({
-                            loading: false,
-                            error: null,
-                            data
-                        })
-                    },5000)
+                    
+                    setState({
+                        loading: false,
+                        error: null,
+                        data
+                    })
+                  
                    
                 }
 
